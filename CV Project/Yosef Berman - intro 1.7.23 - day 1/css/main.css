@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(103, 209, 212);
+    margin-left: 20px;
+    }
+    img {
+        height: 200px;
+        padding: 10px;
+        border-radius: 50%;
+    }
+    a {
+        color: rgb(72, 96, 233);
+    }
+    .Communication{
+        font-size: 20px;
+        
+    }
+    .Communication span{
+        color: #3b21cf;
+        cursor: pointer;
+    }
+    .Communication :hover{
+        color: rgb(221, 221, 221)
+    }
+    
