@@ -49,17 +49,15 @@
 // else{
 //     console.log('Please select numbers between 1 and 9');
 // }
-var ageCheck;
+
 function alcoholAgeCheck() {
     var name = prompt('name?');
     var age = prompt('What is your age?')
     if (age >= 18) {                                                                                //check age
         alert('Welcome ' + name + ', you are ' + age + ', so you are old enough to buy alcohol')    //alert if legal age
-        ageCheck = true;
     }
     else {
         alert('We are sorry ' + name + ', you are ' + age + ',you are too young to buy alcohol.')  //alert if illegal age
-        ageCheck = false;
     }
 }
 function drink() {
