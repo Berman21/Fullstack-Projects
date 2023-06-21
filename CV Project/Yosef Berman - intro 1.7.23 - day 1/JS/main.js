@@ -49,23 +49,28 @@
 // else{
 //     console.log('Please select numbers between 1 and 9');
 // }
-
+var ageCheck;
 function alcoholAgeCheck() {
+    var name = prompt('name?');
+    var age = prompt('What is your age?')
     if (age >= 18) {                                                                                //check age
-        alert('Welcome ' + fullName + ', you are ' + age + ', so you are old enough to buy Beer')    //alert if legal age
+        alert('Welcome ' + name + ', you are ' + age + ', so you are old enough to buy alcohol')    //alert if legal age
+        ageCheck = true;
     }
     else {
-        alert('We are sorry ' + fullName + ', you are ' + age + ',you are too young to buy beer.')  //alert if illegal age
+        alert('We are sorry ' + name + ', you are ' + age + ',you are too young to buy alcohol.')  //alert if illegal age
+        ageCheck = false;
     }
 }
 function drink() {
     var favoriteDrink = prompt('Favorite Drink?');
     console.log('Enjoy your ' + favoriteDrink + '!');
 }
+
 var score = 1;
 function multTen() {
     score = score * 10;
-    console.log('score',score);
+    console.log('score', score);
 }
 function resetScore() {
     if (score > 100000) {
@@ -73,9 +78,9 @@ function resetScore() {
         console.log('Score has been reseted');
     }
 }
-function calculateMult(){
+function calculateMult() {
     var num1 = prompt('num1?');
     var num2 = prompt('num2?');
     var num3 = prompt('num3?');
-    console.log('result is: ',num1*num2*num3);
+    console.log('result is: ', num1 * num2 * num3);
 }
