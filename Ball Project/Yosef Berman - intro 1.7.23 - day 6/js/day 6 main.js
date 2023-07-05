@@ -11,8 +11,8 @@
 // task 2
 
 // var names = ['Muki','Puki','Bobi','Charlie']
-// // console.log('array "names" length is: ',names.length)
-// // console.log(names[1],names[3])
+// console.log('array "names" length is: ',names.length)
+// console.log(names[1],names[3])
 // for(var i = 0; i < names.length; i++){
 //     var currName = names[i]
 //     if(currName == 'Puki'){
@@ -48,15 +48,15 @@
 //     return names
 // }
 
-// task 5
+// // task 5
 
-var arraySum = getSum([1,2,3,6,7])
-console.log('the array sum is:',arraySum);
+// var arraySum = getSum([1,2,3,6,7])
+// console.log('the array sum is:',arraySum);
 
-function getSum(nums){
-    var sum = 0
-    for(var i = 0; i < nums.length; i++){
-        sum = sum + nums[i]
-    }
-    return sum
-}
+// function getSum(nums){
+//     var sum = 0
+//     for(var i = 0; i < nums.length; i++){
+//         sum = sum + nums[i]
+//     }
+//     return sum
+// }
